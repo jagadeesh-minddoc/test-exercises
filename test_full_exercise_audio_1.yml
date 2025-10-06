@@ -1,0 +1,87 @@
+---
+id:
+label: EN_Stress_Management_Ch2_1_test
+status: draft
+title: Task-Related Stressors
+free: false
+image: DE_Stress_Management_Ch2_1
+duration: 4 min
+cards:
+- background_color: FFBAAA
+  text_color: '000000'
+  items:
+  - type: full_exercise_audio
+    title: Task-Related Stressors
+    content: en_stressmanagement_ch2_1
+  - type: text  
+    content: |-
+      So many people say that what stresses them out the most is all the stuff they have to get done, whether for work, their personal life, or in their home. And this stress is constantly changing—it can be higher or lower or occasional or chronic.
+- background_color: FFBAAA
+  condition: PASTE_VALUE(pick_medium) == "1"
+  text_color: '000000'
+  items:
+  - type: text  
+    content: |-
+      Deadlines, especially in the face of difficult or boring work or a lot of tasks to get through in a short amount of time, can really add pressure. Add in situations where there’s either too much or too little room for decision-making and that’s even more pressure. 
+
+      Stress builds, too, when someone regularly strives to get through what they have to do but don’t often get enough, or any, recognition for their efforts.
+      
+      There are lots of ways that your stress may be unique to your situation. For example, if you’re someone who works in customer service or with the general public you may find it stressful to be required to always be friendly, regardless of how you’re being treated. 
+
+      Or, maybe you end up working long hours or working beyond the hours you expected to have to work.
+- background_color: FFBAAA
+  condition: PASTE_VALUE(pick_medium) == "1"
+  text_color: '000000'
+  items:
+  - type: quote  
+    content: |-
+      Rosina, for example, is a single parent who works full-time at an advertising agency. Money is tight and Rosina cannot afford to lose her job or quit. The demands on her at work, though, are quite high. She constantly feels like she doesn’t have enough time to get everything done. And, as if that weren’t stressful enough, her co-workers are not very friendly. Rosina sees that most people in her office compete not just with her but with each other to get on her boss’s good side, and they often do this by making one another look bad.
+
+      With such a hostile work environment, Rosina does not feel comfortable talking about the demands of being a single parent. In fact, she really doesn’t like to mention her kids at all. Rosina has been acutely attuned to the comments her boss has made from time to time about his belief that women with kids are less dedicated to their work. 
+
+      Rosina believes, then, that in order to just keep her job she constantly has to prove herself and go above and beyond what the others in her office are doing. Only very rarely does her boss offer praise, though he’s quick to criticize.
+- background_color: FFBAAA
+  condition: PASTE_VALUE(pick_medium) == "1"
+  text_color: '000000'
+  items:
+  - type: quote  
+    content: |-
+      So in the day-to-day, Rosina rarely takes a lunch break. Instead, she usually walks downstairs to the little store in her building just long enough to grab a sandwich and drink and eats at her desk while working. 
+
+      After work, she picks up her kids from a friend’s house, makes them dinner, does homework with them, and puts them to bed. Throughout the evening, Rosina checks her email to be sure there’s nothing she has to do right away. Quite often there is.
+
+      She rarely gets to bed before midnight.
+
+      No wonder Rosina is stressed.
+- background_color: FFBAAA
+  condition: PASTE_VALUE(pick_medium) == "1"
+  text_color: '000000'
+  items:
+  - type: text  
+    content: |-
+      Take some time now to think specifically about any stressors you have that are specifically related to time pressures or things you have to get done. Write down your thoughts and be as detailed as you’d like.
+      
+      It can be helpful to take a few days and just observe and write down any tasks you have to do or any pressure you feel around time constraints. 
+      
+      Remember to move one step at a time. Focus for now only on the sources of stress in your life that relate to time pressures or all you need to get done and write them down as you observe them or at the end of each day.
+      
+      Then, when you’re ready, keep going. We’ll look next at interpersonal stressors.
+- background_color: FFBAAA
+  text_color: '000000'
+  items:
+  - type: text
+    content: |-
+      Here you can take notes about your task-related sources of stress. Your entries from this and the next parts will be summarized for you in the last part of this section. Note that if you make several entries in this field, only the last one will be displayed.
+  - type: textview
+    show_previous_answer_btn: true
+    identifier: task_related_stress
+    content: Your notes
+- background_color: FFBAAA
+  text_color: '000000'
+  items:
+  - type: text
+    content: |-
+      Give yourself a break before moving on to the next part.
+  - type: thought
+    content: One step at a time.
+    position: right
