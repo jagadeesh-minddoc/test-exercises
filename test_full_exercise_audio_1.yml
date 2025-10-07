@@ -7,12 +7,30 @@ free: false
 image: DE_Stress_Management_Ch2_1
 duration: 4 min
 cards:
+- background_color: FFBAA
+  text_color: '000000'
+  items:
+  - type: text
+    content: |-
+      Would you like to listen to or read this part?
+  - type: picker
+    identifier: pick_medium
+    items:
+    - title: listen
+      value: 2
+    - title: read
+      value: 1
 - background_color: FFBAAA
+  condition: PASTE_VALUE(pick_medium) == "2"
   text_color: '000000'
   items:
   - type: full_exercise_audio
     title: Task-Related Stressors
     content: en_stressmanagement_ch2_1
+- background_color: FFBAAA
+  condition: PASTE_VALUE(pick_medium) == "1"
+  text_color: '000000'
+  items:
   - type: text  
     content: |-
       So many people say that what stresses them out the most is all the stuff they have to get done, whether for work, their personal life, or in their home. And this stress is constantly changing—it can be higher or lower or occasional or chronic.
