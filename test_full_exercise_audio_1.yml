@@ -1,13 +1,13 @@
 ---
 id:
 label: EN_Stress_Management_Ch2_1_test
-status: draft
+status:
 title: Task-Related Stressors
 free: false
 image: DE_Stress_Management_Ch2_1
 duration: 4 min
 cards:
-- background_color: FFBAA
+- background_color:
   text_color: '000000'
   items:
   - type: text
