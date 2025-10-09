@@ -24,15 +24,16 @@ cards:
   condition: PASTE_VALUE(pick_medium) == "2"
   text_color: '000000'
   items:
-  - type: audio
-    title: Task-Related Stressors
-    content: en_stressmanagement_ch2_1
   - type: full_exercise_audio
     title: Task-Related Stressors
     content: en_stressmanagement_ch2_1
 - background_color: FFBAAA
-  condition: PASTE_VALUE(pick_medium) == "1"
+  condition: PASTE_VALUE(pick_medium) == "2"
   text_color: '000000'
+  items:
+  - type: audio
+    title: Task-Related Stressors
+    content: en_stressmanagement_ch2_1
 - background_color: FFBAAA
   text_color: '000000'
   items:
